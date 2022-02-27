@@ -169,7 +169,6 @@
 	
 	</div>
 	
-	
 	<div class="strt">
 	<p>KIJABE STREET</p>
 	<table class="gridtable">
