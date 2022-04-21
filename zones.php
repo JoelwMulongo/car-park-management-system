@@ -14,7 +14,6 @@
 			include('inc/header.php');
 						
 	?>
-	
 	<section id="content">
 	<img style="position:absolute; z-index:-1; margin:0;"/>
 	<p class="phead">Parking Lots Status</p>
@@ -168,7 +167,6 @@
 </table>
 	
 	</div>
-	
 	<div class="strt">
 	<p>KIJABE STREET</p>
 	<table class="gridtable">
@@ -318,7 +316,6 @@
 	
 	</div>
 	<p class="status">Red -> Reserved/Occupied , Yellow -> Available</p>
-	
 	
 	</section>
 	<?php
