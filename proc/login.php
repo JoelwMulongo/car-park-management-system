@@ -12,7 +12,7 @@ if (isset($_POST['Submit'])) {
 
 	$connection = mysqli_connect("localhost", "root", "", "cpms");
 
-	
+
 	$query = mysqli_query($connection, "select * from users where password='$password' AND phone='$phone'");
 	$rows = mysqli_num_rows($query);
 	echo $rows;
