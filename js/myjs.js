@@ -2,7 +2,6 @@ $(document).ready(function(){
   $(".create_account").click(function(){
     window.location.assign("new_account.php")
 	});
-	
 	$(".edit").click(function(){
 		$("body .dt span").attr("contenteditable", "true");
 		$("body .phone span").attr("contenteditable", "false");
