@@ -15,7 +15,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
+/*!40101 SET NAMES utf8mb4 */;  
 
 --
 -- Database: `cpms`
@@ -26,7 +26,6 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `messages`
 --
-
 CREATE TABLE `messages` (
   `id` int(11) NOT NULL,
   `msgdate` text NOT NULL,
@@ -37,7 +36,6 @@ CREATE TABLE `messages` (
 
 -- --------------------------------------------------------
 
---
 -- Table structure for table `users`
 --
 
@@ -54,7 +52,6 @@ CREATE TABLE `users` (
   `pl_booked` text NOT NULL,
   `access` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 --
 -- Dumping data for table `users`
 --

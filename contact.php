@@ -13,7 +13,6 @@
 			include('inc/header.php');
 						
 	?>
-	
 	<section id="content">
 	<div>
 		<p class="phead"> Contact Us </p>
@@ -30,6 +29,5 @@
 			include('inc/footer.php');
 	?>
 	</section>
-	
 </body>
 </html>

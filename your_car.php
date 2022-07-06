@@ -14,12 +14,9 @@
 			include('inc/header.php');
 						
 	?>
-	
 	<section id="content">
-	
 	<form class="box login" action="process-book-1.php" method="post">
-
-	<fieldset class="boxBody">
+<fieldset class="boxBody">
 	<label><strong>Describe your Vehicle</strong></label>
 	<hr />
 	  <label>Model</label>
@@ -38,12 +35,10 @@
 	  ?>
 	</footer>
 </form>
-	
 	</section>
 	<?php
 			include('inc/footer.php');
 	?>
 	</section>
-	
 </body>
 </html>

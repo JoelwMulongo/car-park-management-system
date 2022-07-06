@@ -19,7 +19,6 @@
 $sql="SELECT * FROM zones WHERE street='$street' and plot='$plot' and status='RESERVED'";
 $result=mysqli_query($connect, $sql);
 
-
 // Mysql_num_row is counting table row
 $count=mysqli_num_rows($result);
 
@@ -31,10 +30,10 @@ if($count==1){
 else
 {
 
-        $query = "INSERT INTO `zones` (phone,status, email, model, vehicle,street,plot,platenumber,account,charge,d1,d2) VALUES ('$phone','$status', '$email', '$model', '$vehicle' , '$street', '$plot', '$plateno', '$account','$charge','$from','$to')";
-        $result = mysqli_query($connect, $query);
+    $query = "INSERT INTO `zones` (phone,status, email, model, vehicle,street,plot,platenumber,account,charge,d1,d2) VALUES ('$phone','$status', '$email', '$model', '$vehicle' , '$street', '$plot', '$plateno', '$account','$charge','$from','$to')";
+    $result = mysqli_query($connect, $query);
 		
-		$var = $_SESSION["from"];
+	$var = $_SESSION["from"];
 $date = str_replace('/', '.', $var);
 echo date('Y.m.d', strtotime($date));
 		if($result){

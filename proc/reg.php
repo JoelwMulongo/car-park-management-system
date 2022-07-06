@@ -9,8 +9,6 @@
 	$plate=$_POST['plate'];
 	$email=$_POST['email'];
 	$table_name='users';
-	
-	
 	$form_data = array(
 	    'name' =>  $fname. ' ' .$lname ,
 		'phone' => $phone,

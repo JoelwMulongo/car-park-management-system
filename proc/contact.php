@@ -21,8 +21,6 @@
 		'msg' => $msg
 		
 	);
-		
-	
 	//echo dbRowInsert($table_name, $form_data);
 $conn->multi_query( dbRowInsert($table_name, $form_data));
 $conn->close();

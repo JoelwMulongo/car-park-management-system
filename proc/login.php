@@ -4,7 +4,6 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 		
 }
-
 if (isset($_POST['Submit'])) {
 	
 	$phone=$_POST['phone'];

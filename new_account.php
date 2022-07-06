@@ -12,10 +12,8 @@
 	<?php
 			include('inc/header.php');
 	?>
-	
 	<section id="content">
-	
-		<div class="left-signup">
+	<div class="left-signup">
 		</div>
 		<div class="left-signup">
 		<p class="head">New Account Registration</p>
@@ -27,8 +25,7 @@
 			<input type="password" name="password"value="" placeholder="Password" required/>
 			<input type="text" name="plate" value="" placeholder="Car No." required/>
 			<input type="Submit" name="Submit" value="Create Account"/>
-				
-		</form>
+				</form>
 		</div>
 	</section>
 	<?php

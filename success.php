@@ -13,7 +13,6 @@
 			include('inc/header.php');
 						
 	?>
-	
 	<section id="content">
 	<img src="src/bg.png" style="position:absolute; z-index:-1; margin:0;"/>
 	<div>

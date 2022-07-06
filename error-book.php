@@ -13,7 +13,6 @@
 			include('inc/header.php');
 						
 	?>
-	
 	<section id="content">
 	<img src="src/bg.png" style="position:absolute; z-index:-1; margin:0;"/>
 		<p style="text-align:center; color:white; background:red; border:solid 1px black;padding:5px;">
